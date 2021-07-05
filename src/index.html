@@ -21,7 +21,7 @@
       <fieldset class="PersonalInformation">
         <legend>Personal information</legend>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="surname">Surname:</label>
           <input
             type="text"
@@ -30,7 +30,7 @@
           >
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="name">Name:</label>
           <input
             type="text"
@@ -39,7 +39,7 @@
           >
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="age">How old are You?</label>
           <input
             id="age"
@@ -49,7 +49,7 @@
           >
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="fullDateBirth">Full date of birth:</label>
           <input
             placeholder="mm/dd/yyyy"
@@ -58,11 +58,12 @@
           >
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="acceptAgreement">I accept the term of the agreement</label>
           <input
             type="checkbox"
             id="acceptAgreement"
+            name="acceptAgreement"
             required
           >
         </div>
@@ -72,7 +73,7 @@
       <fieldset class="Registration">
         <legend>Registration</legend>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="email">E-mail:</label>
           <input
             type="email"
@@ -84,7 +85,7 @@
           >
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="password">Password:</label>
           <input
             type="password"
@@ -102,7 +103,7 @@
       <fieldset class="IntrestingFact">
         <legend>An interesting fact about you!</legend>
 
-        <div class="vidstup">
+        <div class="form-field">
           Do you love cats?
           <label for="yes">
             <input
@@ -122,17 +123,17 @@
           </label>
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="whatColor">What is your favorite color?</label>
           <input type="color" id="whatColor">
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="whatTime">What time do you go to bed?</label>
           <input type="time" id="whatTime">
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="favoriteCars">What are your favorite brand of cars?</label>
           <select
             name="cars"
@@ -145,7 +146,7 @@
           </select>
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="rateWork">How do you rate our work?</label>
           <input
             type="range"
@@ -160,12 +161,12 @@
       <fieldset class="AdditionalInfo">
         <legend>Additional info:</legend>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="comment">Comments:</label>
           <textarea name="addInfo" id="comment"></textarea>
         </div>
 
-        <div class="vidstup">
+        <div class="form-field">
           <label for="recommend">Would you recommend us?</label>
           <select name="recommend" id="recommend">
             <option value="yes">yes</option>
